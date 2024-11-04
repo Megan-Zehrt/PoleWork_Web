@@ -1,0 +1,178 @@
+*{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+body{
+    background-image: url(images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    image-rendering:optimizeQuality;
+}
+
+.NavBar{
+    height: 75px;
+    background-color: #cfbaba;
+    display: flex;
+}
+
+.LogoMain{
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    margin-right: 5px;
+}
+
+.WebName{
+    font-size: 25px;
+    margin-top: 25px;
+    cursor: default;
+}
+
+.NavSelection{
+    display: flex;
+    margin-left: 690px;
+}
+
+.HoofLogo{
+    height: 70px;
+    width: 70px;
+}
+
+.Exercise{
+    font-size: 15px;
+    margin-top: 30px;
+    cursor: default;
+}
+
+.HowItWorks{
+    font-size: 15px;
+    margin-top: 30px;
+    cursor: default;
+}
+
+.HowToBuildIt{
+    font-size: 15px;
+    margin-top: 30px;
+    cursor: default;
+}
+
+.Main{
+    display: flex;
+    margin-top: 25px;
+}
+
+.ExerciseButtonBox{
+    width: 100px;
+    height: 940px;
+    background-color: #cfbaba;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+
+.exerciseword{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.ExBtn{
+    background-color: #cfbaba;
+    border-radius: 5px;
+    border-color: black;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.MainArea{
+    display: flex;
+}
+
+.ImageBox{
+    height: 500px;
+    width: 500px;
+    background-color: #cfbaba;
+    margin-right: 420px;
+    margin-bottom: 130px;
+}
+
+.ExerciseImage{
+    height: 480px;
+    width: 480px;
+    border-style: groove;
+    border-width: 10px;
+    border-color: black;
+}
+
+.HowToBox{
+    height: 940px;
+    width: 300px;
+    background-color: #cfbaba;
+}
+
+.HowToContentsBox{
+    height: 910px;
+    width: 260px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: groove;
+    border-width: 10px;
+    border-color: black;
+    cursor: pointer;
+}
+
+.HowToHeading{
+    font-weight: bold;
+    border-style: none none solid none;
+    font-size: 30px;
+}
+
+.HowToContent{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.HowItWorksBox{
+    height: 305px;
+    width: 800px;
+    background-color: #cfbaba;
+    padding-top: 0px;
+    cursor: pointer;
+}
+
+.HowItWorksContentsBox{
+    height: 280px;
+    width: 760px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style:groove;
+    border-width: 10px;
+    border-color: black;
+}
+
+.HowItHeading{
+    font-weight: bold;
+    border-style: none none solid none;
+    font-size: 30px;
+}
+
+.HowItContent{
+    margin-top: 15px;
+    font-size: 20px;
+}
